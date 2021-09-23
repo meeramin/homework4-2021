@@ -26,51 +26,81 @@ caption{
 
 body{
   color: #000000;
+  font-family: 'Andika', sans-serif;  
   font-size: 16px;
   margin: 1.2em;
   background-size: cover ;
   background-position: center;
+  background-color: url(imgs/pigeon-background.JPEG), #DDDDDD;
 
   /*Req 1*/
 }
 
 h1{
-  color: #c12258;
+  color: #B92751;
   font-size: 2em;
+  line-height: 2px;
 
   /*Req 2*/
 }
 
 p{
+  padding-top: 15px;
   
 }
 
 a{
-  
+font-size: 16px; 
+color:#C12258 ;
+text-align: center;
+text-decoration-style: wavy;
+
 }
 
 /*Req 5*/
 /*Add selector and rule here*/
 
+*:focus {
+  border-style: dashed;
+  border-width: 3px;
+  border-color:#417243;
+}
+
 
 
 td{
+  text-align: center;
+  border: 50px;
+
+
+
   
 }
 
 
 .colhead{
   color: #FFFFFF;
-
+  font-size: ;
 }
 
 .rowhead{
+  border-color: black;
+  border: 2px
 
+}
+
+tr:hover {
+   background-color: #7e0825, rgba(127, 8, 37, .25);
 }
 
 
 table{
     border: 5px solid #000000;
+    border-radius:  ;
+    text-align: center;
+
+
+
 }
 
 /* I gave you the selector, but not the property-value pair. 
@@ -83,6 +113,7 @@ thead tr:first-child th:first-child{}
 
 footer{
   width:100%;
+  min-height: 75px;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
