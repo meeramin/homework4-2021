@@ -147,6 +147,9 @@ background: rgba(0, 0, 0, 0);
 tr:nth-child(even){
   background:#D1D1D1 ;
 }
+tr:hover{
+  background-color: (126, 8 ,37, rgba(127, 8, 37, .25))
+}
 
 
 
@@ -161,4 +164,6 @@ footer{
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  margin-left: 0;
+  bottom: 0px;
 }
