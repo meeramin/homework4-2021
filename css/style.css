@@ -28,20 +28,20 @@ body{
   color: #000000;
   font-family: 'Andika', sans-serif;  
   font-size: 16px;
-  margin: 1.2em;
-  background-size: cover ;
+  /* margin: 1.2em; */
+  background-image: url("/images/pigeon-background.jpg");
+  background-color: #DDDDDD;
   background-position: center;
-  background-color: url(imgs/pigeon-background.JPEG), #DDDDDD;
-  background-repeat:no-repeat;
-  backgROund-color:  #DDDDDD;
-
+  background-repeat: no-repeat;
+  background-size: cover;
+  
   /*Req 1*/
 }
 
 h1{
   color: #C12258;
   font-size: 2em;
-  line-height: 2px;
+  line-height: 2;
   text-align: center;
 
   /*Req 2*/
@@ -70,21 +70,17 @@ text-decoration-style: wavy;
 
 
 
-td{
+td {
   text-align: center;
-  border-top: 2px #000000;
+  border-top: solid 2px #000000;
   padding: 10px;
-
-
-
-  
 }
 
 
 .colhead{
   text-align: center;
   color: #FFFFFF;
-  min-width: 125px ;
+  min-width: 125px;
   padding: 10px;
   vertical-align: center;
   text-transform: uppercase;
@@ -95,14 +91,10 @@ td{
 
 
 .rowhead{
-  border-top: 2px #000000;
-  border-right: 2px #000000;
+  border-top: solid 2px #000000;
+  border-right: solid 2px #000000;
+  padding: 10px;
 
-
-}
-
-tr:hover {
-   background-color: #7e0825, rgba(127, 8, 37, .25);
 }
 
 
@@ -144,16 +136,15 @@ tbody tr:last-child td:last-child{
 
 /*Add selectors and rules here*/
 tr:nth-child(odd){
-background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
 }
 
 tr:nth-child(even){
-  background:#D1D1D1 ;
+  background:#D1D1D1;
 }
-tr:hover{
-  background-color: (126, 8 ,37, rgba(127, 8, 37, .25))
-}
-
+table tr:hover{
+  background-color: rgba(126, 8, 37, .25);
+} 
 
 
 
